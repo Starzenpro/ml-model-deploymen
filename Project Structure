@@ -1,0 +1,45 @@
+ml-model-deployment/
+│
+├── .github/                          # GitHub specific files
+│   └── workflows/
+│       └── ci.yml                    # GitHub Actions CI/CD pipeline
+│
+├── .devcontainer/                     # Codespaces configuration
+│   └── devcontainer.json              # Auto-setup for Codespaces
+│
+├── app/                               # Main application code
+│   ├── __init__.py
+│   ├── main.py                        # FastAPI application
+│   ├── models/                         # Trained models directory
+│   │   └── .gitkeep                    # Keep empty directory in git
+│   └── schemas/                         # Pydantic models
+│       └── __init__.py
+│
+├── scripts/                            # Utility scripts
+│   ├── train.py                         # Model training script
+│   ├── predict.py                       # Prediction script
+│   └── setup.sh                         # Setup script for Codespaces
+│
+├── tests/                               # Unit tests
+│   ├── __init__.py
+│   ├── test_api.py                       # Test API endpoints
+│   └── test_model.py                      # Test model functions
+│
+├── docker/                               # Docker files
+│   ├── Dockerfile                         # Docker image definition
+│   └── docker-compose.yml                  # Multi-container setup
+│
+├── notebooks/                            # Jupyter notebooks (optional)
+│   └── exploration.ipynb                   # Model exploration
+│
+├── docs/                                 # Documentation
+│   ├── api.md                              # API documentation
+│   └── examples.md                          # Usage examples
+│
+├── .env.example                           # Environment variables template
+├── .gitignore                             # Git ignore file
+├── requirements.txt                        # Python dependencies
+├── Makefile                                # Automation commands
+├── README.md                               # Project documentation
+├── LICENSE                                 # MIT License
+└── .python-version                         # Python version specification
