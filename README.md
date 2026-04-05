@@ -1,17 +1,24 @@
-# ML Model Deployment with FastAPI
+# ML Model Deployment Pipeline (End-to-End)
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/yourusername/ml-model-deployment)
-[![Python](https://img.shields.io/badge/python-3.10-blue)](https://python.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.104-green)](https://fastapi.tiangolo.com)
-[![Docker](https://img.shields.io/badge/docker-24.0-blue)](https://docker.com)
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+## Overview
+This project demonstrates an end-to-end machine learning workflow, from model training to deployment using a production-ready pipeline.
 
-A production-ready machine learning model deployment using FastAPI, Docker, and GitHub Codespaces.
+## Architecture
+- Model Training (Scikit-learn / PyTorch)
+- Model Serialization (joblib / .pt)
+- API Layer (Flask/FastAPI)
+- Containerization (Docker)
+- CI/CD (GitHub Actions)
 
-## 🚀 Quick Start in Codespaces
+## Features
+- Real-time inference via REST API
+- Automated build and deployment pipeline
+- Containerized ML service
 
-1. Click the badge above to open in Codespaces
-2. Wait 2-3 minutes for automatic setup
-3. Train the model:
-   ```bash
-   make train
+## Why This Matters
+This project simulates real-world ML deployment workflows, where trained models are packaged, deployed, and served as APIs for production use.
+
+## Future Improvements
+- Add monitoring and logging
+- Integrate model versioning
+- Extend to deep learning models (PyTorch)
