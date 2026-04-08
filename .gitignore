@@ -1,43 +1,6 @@
-# Python
 __pycache__/
-*.py[cod]
-*.so
-.Python
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-*.egg-info/
-dist/
-build/
-
-# Models
-*.pkl
-*.joblib
-!app/models/.gitkeep
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# Environment
+.venv/
+models/
 .env
-.env.local
-.env.*.local
-
-# Logs
-logs/
-*.log
-
-# Docker
-*.pid
-docker/redis-data/
-
-# Test outputs
+*.pyc
 .pytest_cache/
-.coverage
-htmlcov/
