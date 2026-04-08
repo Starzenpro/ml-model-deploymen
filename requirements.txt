@@ -4,3 +4,4 @@ scikit-learn
 joblib
 prometheus_client
 pytest
+mlflow
